@@ -1,0 +1,21 @@
+.cell {
+  width: fit-content;
+  height: fit-content;
+  min-width: 128px;
+  min-height: 128px;
+  background: #fff;
+  color: #333;
+  box-sizing: border-box;
+  border: dashed 3px #333;
+  border-radius: 8px;
+}
+
+.empty {
+  width: 128px;
+  height: 128px;
+  background: #fff;
+}
+
+.dragging {
+  border: dashed 3px #1e1ea7;
+}

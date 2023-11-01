@@ -1,0 +1,29 @@
+.component {
+  display: flex;
+  gap: 4px;
+}
+
+.dragging {
+  opacity: .5;
+}
+
+.widgetContainer {
+  height: fit-content;
+  width: fit-content;
+  border: dashed 3px green;
+  border-radius: 8px;
+}
+
+.widget1 {
+  height: 128px;
+  width: 128px;
+  border-radius: 8px;
+  background: midnightblue;  
+}
+
+.widget2 {
+  height: 256px;
+  width: 256px;
+  border-radius: 8px;
+  background: coral;  
+}
